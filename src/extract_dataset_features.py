@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from feature_extraction import extract_features
-from data_loader import load_sms_data
+from .feature_extraction import extract_features
+from .data_loader import load_sms_data
 
 FEATURE_NAMES = [
     "Message Length",
