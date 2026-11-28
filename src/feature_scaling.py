@@ -45,4 +45,4 @@ if __name__ == "__main__":
         [50, 9, 0]
     ]
     min_values, max_values = fit_scaler(X_train)
-    print(transform(X_train, min_values, max_values))  # Expected: [[0.0, 0.0, 0.0], [0.5, 0.5, 1.0], [1.0, 1.0, 0.0]]
+    print(transform(X_train, min_values, max_values))  
